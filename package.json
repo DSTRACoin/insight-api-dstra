@@ -2,7 +2,7 @@
   "name": "insight-api-neetcoin",
   "description": "An open-source bitcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.18",
-  "repository": "https://github.com/NEETCOINTeam/insight-api-neetcoin.git",
+  "repository": "https://github.com/DSTRACoin/insight-api-dstra.git",
   "contributors": [{
     "name": "Matias Alejo Garcia",
     "email": "ematiu@gmail.com"
@@ -47,7 +47,7 @@
     "async": "*",
     "base58-native": "0.1.4",
     "bignum": "*",
-    "bitcore": "git://github.com/NEETCOINTeam/bitcore-neetcoin.git",
+    "bitcore": "git://github.com/DSTRACoin/bitcore-dstra.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
