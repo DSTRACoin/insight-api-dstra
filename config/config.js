@@ -25,14 +25,14 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '3000';
-  b_port = '5170';
-  p2p_port = '5169';
+  b_port = '5270';
+  p2p_port = '5269';
 } else {
   env = 'testnet';
   db = home + '/testnet';
   port = '3001';
-  b_port = '6170';
-  p2p_port = '6169';
+  b_port = '15270';
+  p2p_port = '15269';
 }
 port = parseInt(process.env.INSIGHT_PORT) || port;
 
@@ -57,9 +57,9 @@ var isWin = /^win/.test(process.platform);
 var isMac = /^darwin/.test(process.platform);
 var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
-  if (isWin) dataDir = '%APPDATA%\\DSTRA\\';
-  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/DSTRA/';
-  if (isLinux) dataDir = process.env.HOME + '/.dstra/';
+  if (isWin) dataDir = '%APPDATA%\\DSTRA2\\';
+  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/DSTRA2/';
+  if (isLinux) dataDir = process.env.HOME + '/.dstra2/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
